@@ -8,12 +8,12 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : Your Name
+title                    : James Portfolio
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : Your Name
-description              : Your Name - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+name                     : James
+description              : James - Thermodynamics Projects and CV
+baseurl                  : "/fa25-portfolio-xtremejames1" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal

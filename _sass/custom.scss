@@ -196,8 +196,199 @@ footer {
 }
 
 .back-arrow:hover {
-  color: #3a3f58; 
+  color: #3a3f58;
   transform: translateX(-4px);
+}
+
+// Heat Exchanger Project Specific Styles
+
+// Professional table styling
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 0.95em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead tr {
+  background-color: $primary-color;
+  color: $background-color;
+  text-align: left;
+  font-weight: bold;
+}
+
+th, td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ddd;
+
+  &:nth-of-type(even) {
+    background-color: rgba(0, 0, 0, 0.02);
+  }
+
+  &:last-of-type {
+    border-bottom: 2px solid $primary-color;
+  }
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+}
+
+// Responsive table
+@media screen and (max-width: 600px) {
+  table {
+    font-size: 0.85em;
+  }
+
+  th, td {
+    padding: 8px 10px;
+  }
+}
+
+// Diagram containers with better spacing and styling
+.diagram-container {
+  margin: 2em 0;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  p {
+    margin-top: 0.5em;
+    font-style: italic;
+    color: #666;
+    font-size: 0.9em;
+  }
+}
+
+// Highlight key numbers and findings
+strong {
+  color: $primary-color;
+  font-weight: 700;
+}
+
+// Callout boxes for important findings
+.callout {
+  background-color: #e8f4f8;
+  border-left: 4px solid #0066cc;
+  padding: 1em;
+  margin: 1.5em 0;
+  border-radius: 4px;
+
+  strong {
+    color: #0066cc;
+  }
+}
+
+// Equation blocks with MathJax
+.MathJax {
+  font-size: 1.1em !important;
+}
+
+mjx-container {
+  margin: 0.5em 0;
+}
+
+// Section dividers
+hr {
+  border: none;
+  border-top: 2px solid #e0e0e0;
+  margin: 2.5em 0;
+}
+
+// Improve readability for project pages
+.container {
+  max-width: 900px;
+  padding: 20px;
+}
+
+// Responsive images in project content
+.project-image,
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+// Code blocks for methodology
+pre, code {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+pre {
+  padding: 1em;
+  overflow-x: auto;
+
+  code {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+}
+
+// List styling for better readability
+ul, ol {
+  margin: 1em 0;
+  padding-left: 2em;
+
+  li {
+    margin: 0.5em 0;
+  }
+}
+
+// Subsection styling
+h2 {
+  color: $primary-color;
+  border-bottom: 2px solid $primary-color;
+  padding-bottom: 0.3em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  color: darken($primary-color, 10%);
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+}
+
+// Mobile responsiveness
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  .diagram-container img {
+    padding: 5px;
+  }
 }
 
 
