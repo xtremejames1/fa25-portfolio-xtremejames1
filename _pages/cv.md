@@ -99,4 +99,4 @@ Linux, Brazilian Jiu-Jitsu, Bouldering, Weightlifting, 3D Printing
 
 ---
 
-*Last Updated: November 2024*
+*Last Updated: November 2025*
