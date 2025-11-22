@@ -8,11 +8,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : James Portfolio
+title                    : James Xiao Portfolio
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : James
-description              : James - Thermodynamics Projects and CV
+name                     : James Xiao
+description              : James Xiao - Thermodynamics Projects and CV
 baseurl                  : "/fa25-portfolio-xtremejames1" # Set this to your repo name 
 
 # Theme and Style

@@ -254,7 +254,7 @@ Counter flow maintains a larger, more uniform temperature difference between hot
    - More uniform temperature driving force
 
 2. **Experimental validation:**
-   - Energy balance confirmed: $\dot{Q}_{hot} = \dot{Q}_{cold}$
+   - Energy balance confirmed: $\dot{Q}_h = \dot{Q}_c$
    - Flow rate ratios: $\dot{m}_c/\dot{m}_h = 1.905$ (parallel), $1.268$ (counter)
    - Assumptions (adiabatic, steady-state) reasonably satisfied
 
@@ -262,16 +262,6 @@ Counter flow maintains a larger, more uniform temperature difference between hot
    - Configuration choice significantly impacts performance
    - Flow rate adjustments enable performance tuning
    - Insulation reduces efficiency losses
-
-### Engineering Significance
-
-Counter flow heat exchangers dominate industrial applications requiring maximum heat transfer efficiency. This configuration enables:
-- Higher outlet temperatures in the heated stream
-- Better energy recovery in power generation and chemical processing
-- Reduced operating costs through improved efficiency
-- Optimal performance in space/weight-constrained applications
-
-**Fundamental lesson**: Flow configuration is a critical design choice with measurable performance impacts, not merely a plumbing detail.
 
 ---
 
